@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root {
+  --klean-bg: #f7f7f4;
+  --klean-fg: #171717;
+  --klean-muted: #666;
+  --klean-border: #deded8;
+  --klean-accent: #171717;
+  --klean-card: #fff;
+}
+
+* { box-sizing: border-box; }
+html { background: var(--klean-bg); }
+body {
+  margin: 0;
+  color: var(--klean-fg);
+  background: var(--klean-bg);
+  font-family: Arial, Helvetica, sans-serif;
+}
+button, input { font: inherit; }
